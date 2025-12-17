@@ -56,7 +56,6 @@ public class P16943 {
             if(visited[i]) {
                 continue;
             }
-
             visited[i] = true;
             recursive(num.append(str[i]));
             num.setLength(num.length() - 1);
